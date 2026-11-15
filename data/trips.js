@@ -197,8 +197,8 @@ window.TRIPS = [
     title: "峴港",
     country: "越南",
     countryCode: "VN",
-    startDate: "2024-07-15",
-    endDate: "2024-07-19",
+    startDate: "2026-07-15",
+    endDate: "2026-07-19",
     companions: "花班",
     color: "green",
     summary: "大夏天來越南快融化了",
@@ -208,7 +208,7 @@ window.TRIPS = [
         name: "佛手橋",
         lat: 15.99486,
         lng: 107.99625,
-        date: "2024-07-18",
+        date: "2026-07-18",
         note: "上來巴拿山超級高，搭纜車超級心驚膽顫。",
         photos: [
         { src: "images/da Nang-2026/Golden bridge-01.jpg" }
@@ -219,7 +219,7 @@ window.TRIPS = [
         name: "巴拿山遊樂設施",
         lat: 15.99709,
         lng: 107.98887,
-        date: "2024-07-18",
+        date: "2026-07-18",
         note: "這個超級好玩，只不過要排很久",
         photos: [
           { src: "images/da Nang-2026/Ba Na Hills-01.jpg" }
@@ -230,7 +230,7 @@ window.TRIPS = [
         name: "迦南島椰子森林",
         lat: 15.87550,
         lng: 108.37870,
-        date: "2024-07-16",
+        date: "2026-07-16",
         note: "竹桶船越坐越暈...",
         photos: [
           { src: "images/da Nang-2026/Bay Mau Coconut Forest-01.jpg" }
