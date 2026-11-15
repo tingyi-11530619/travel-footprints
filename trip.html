@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>旅行紀錄</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Huninn&display=swap">
+  <link rel="stylesheet" href="assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-trip">
+  <nav class="trip-nav"><a href="index.html">回到足跡地圖</a></nav>
+
+  <!-- 內容全部由 assets/js/trip.js 依網址的 ?id= 從 data/trips.js 產生，不要在這裡手寫旅行內容 -->
+  <main id="trip"></main>
+
+  <footer class="site-footer" id="footer"></footer>
+
+  <script src="assets/vendor/leaflet.js"></script>
+  <script src="data/site.js"></script>
+  <script src="data/trips.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/trip.js"></script>
+</body>
+</html>

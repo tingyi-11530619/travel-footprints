@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的旅行足跡</title>
+  <meta name="description" content="把去過的每個景點都釘在地圖上：點開大頭針，看看那天的照片和心得。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Huninn&display=swap">
+  <link rel="stylesheet" href="assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="assets/vendor/MarkerCluster.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-home">
+  <header class="topbar">
+    <h1 class="topbar__title" id="site-title">我的旅行足跡</h1>
+    <div class="topbar__filters" id="filters" role="group" aria-label="依國家切換地圖"></div>
+    <p class="topbar__count" id="count"></p>
+  </header>
+
+  <main class="atlas">
+    <div class="map-frame atlas__frame">
+      <div id="map" class="atlas__map" role="region" aria-label="足跡地圖"></div>
+    </div>
+    <!-- 側邊面板內容由 assets/js/home.js 產生：旅行列表 / 單趟旅行 / 單一景點 -->
+    <aside id="panel" class="panel" aria-live="polite"></aside>
+  </main>
+
+  <script src="assets/vendor/leaflet.js"></script>
+  <script src="assets/vendor/leaflet.markercluster.js"></script>
+  <script src="data/site.js"></script>
+  <script src="data/trips.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
